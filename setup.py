@@ -25,7 +25,7 @@ setup(name='qubes-app-usync',
       scripts=[
           'qubes.Download',
       ],
-      keywords='u.sync qubes security pdf png jpeg',
+      keywords='u.sync, qubes, security, pdf, png, jpeg',
       classifiers=[
           'Development Status :: 1 - Beta',
           'Environment :: Console',
