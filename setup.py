@@ -3,19 +3,12 @@ Main distribution file.
 '''
 
 
-import os
 from distutils.core import setup
-
-
-def read(fname):
-    with open(os.path.join(os.path.dirname(__file__), fname)) as reader:
-        return reader.read()
 
 
 setup(name='qubes-app-usync',
       version='0.1.0',
-      description='Safely convert pdf and images from u.sync files',
-      long_description=read('README.rst'),
+      description='Convert untrusted pdf and images in parallel from u.sync files',
       license='BSD 3-Clause',
       author='Yan Marques de Cerqueira',
       author_email='marques_yan@outlook.com',
