@@ -15,7 +15,7 @@ def read(fname):
 setup(name='qubes-app-usync',
       version='0.1.0',
       description='Safely convert pdf and images from u.sync files',
-      long_description=read('README'),
+      long_description=read('README.rst'),
       license='BSD 3-Clause',
       author='Yan Marques de Cerqueira',
       author_email='marques_yan@outlook.com',
