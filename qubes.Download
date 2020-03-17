@@ -6,6 +6,6 @@ trap "rm -rf $target" EXIT
 
 usync -kd "$target"
 
-python3 preprocess.py "$@" "$target"
+python3 -m preprocess "$@" "$target"
 
 qvm-copy "$target"
