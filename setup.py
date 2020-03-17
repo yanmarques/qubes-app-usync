@@ -18,6 +18,7 @@ setup(name='qubes-app-usync',
       scripts=[
           'qubes.Download',
       ],
+      python_requires='>=3.6',
       keywords='u.sync, qubes, security, pdf, png, jpeg',
       classifiers=[
           'Development Status :: 1 - Beta',
