@@ -1,4 +1,4 @@
 #!/bin/sh
 pushd INSTALLATION_DIR
-sync.sh "$@"
+./sync.sh "$@"
 popd
